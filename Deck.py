@@ -3,7 +3,6 @@ from random import shuffle
 from Card import Card
 
 class Deck:
-    cards_count =52
 
     def __init__(self):
         card_suit = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
